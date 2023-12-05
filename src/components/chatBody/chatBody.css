@@ -1,0 +1,17 @@
+.chatBody {
+   max-width: 1620px;
+   height: 1078px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+@media screen and (max-width: 550px) {
+   .chatBody {
+      flex-direction: column;
+      width: 100%;
+      min-height: 100vh;
+   }
+ 
+}

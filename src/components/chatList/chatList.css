@@ -1,0 +1,123 @@
+.chatList {
+   width: 32.098%;
+   height: 100%;
+   background-color: var(--layoutColor);
+   padding: 40px 40px 0 40px;
+}
+
+.chatHeading {
+   font-family: var(--fPoppins);
+   font-size: 26px;
+   font-weight: 400;
+   line-height: 31px;
+}
+
+.chatList button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: var(--fOpenSans);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 13px;
+   padding: 10px;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   background-color: var(--highlight2);
+   color: var(--bgColor);
+   width: 100%;
+   margin-top: 30px;
+}
+
+.chatList button span {
+   margin-right: 5px;
+   font-size: 25px;
+}
+
+.chatInfo {
+   font-family: var(--fPoppins);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 25px;
+   padding-top: 20px;
+   color: var(--textWhite);
+}
+
+.chatSection {
+   margin-top: 10px;
+}
+
+.line {
+   background-color: var(--lineColor);
+   width: 100%;
+   height: 0.5px;
+   margin: 30px 0;
+}
+
+.createBtn {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   cursor: pointer;
+}
+
+.createBtnSign {
+   width: 30px;
+   height: 30px;
+   background-color: var(--highlight2);
+   font-size: 25px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--bgColor);
+   font-family: var(--fPoppins);
+   font-weight: 500;
+}
+
+.createBtnText {
+   font-family: var(--fPoppins);
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 26px;
+   margin-left: 16px;
+}
+
+@media screen and (max-width: 1150px) {
+   .chatList {
+      padding: 10px 10px 0 10px;
+   }
+
+   .chatHeading {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 14px;
+   }
+
+   .chatList button {
+      font-size: 16px;
+   }
+
+   .chatInfo {
+      font-size: 16px;
+      line-height: 22px;
+   }
+
+   .createBtnText {
+      font-family: var(--fPoppins);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      margin-left: 16px;
+   }
+   
+}
+
+@media screen and (max-width: 550px) {
+   .chatList {
+      width: 100%;
+      margin: 0 auto 30px;
+   }
+}

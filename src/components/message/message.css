@@ -1,0 +1,56 @@
+.message {
+   padding: 0 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.rightMsg {
+   background-color: var(--highlight1);
+   width: fit-content;
+   padding: 10px;
+   border-radius: 12px 12px 12px 0;
+   font-family: var(--fPoppins);
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+   margin-top: 12px;
+   margin-left: 15px;
+}
+
+.leftMsg {
+   background-color: var(--highlight2);
+   width: fit-content;
+   padding: 10px;
+   border-radius: 12px 12px 0px 12px;
+   font-family: var(--fPoppins);
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+   margin-top: 12px;
+   margin-right: 15px;
+   color: var(--bgColor);
+   align-self: flex-end;
+}
+
+
+.bundleRight {
+   margin-top: 15px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.bundleLeft {
+   margin-top: 15px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.extraPadRight {
+   margin-right: 52px;
+}
+
+.extraPadLeft {
+   margin-left: 52px;
+}
